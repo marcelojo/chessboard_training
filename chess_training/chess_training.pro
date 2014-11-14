@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    qchessboard.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    qchessboard.h
 
 FORMS    += mainwindow.ui
